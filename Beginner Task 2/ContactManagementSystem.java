@@ -56,7 +56,7 @@ public class ContactManagementSystem {
         try {
             return Integer.parseInt(scanner.nextLine());
         } catch (NumberFormatException e) {
-            return -1; // Invalid input
+            return -1; 
         }
     }
     private static void addContact() {
